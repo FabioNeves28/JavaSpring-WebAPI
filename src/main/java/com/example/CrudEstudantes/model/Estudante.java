@@ -13,6 +13,16 @@ public class Estudante {
     private String nome;
     private String endereco;
 
+    public String getCep() {
+        return cep;
+    }
+
+    public void setCep(String cep) {
+        this.cep = cep;
+    }
+
+    private String cep;
+
     public Estudante() {
     }
 
